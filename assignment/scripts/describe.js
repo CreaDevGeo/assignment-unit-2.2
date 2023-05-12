@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable named Dane without a value assigned.
+// We then write a conditional statement.
+// The first part is stating that if name equals Mary, then console.log string "Hi, Mary!"
+// The second part is stating that if name is anything besides Mary, then console.log string "How do you do?"
 
 //CODE
 /*
@@ -45,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+/* Two varibales are being created. The first one is named secret and has no value assigned. 
+   The second one is named code with a value attributed with numbers 123.
+   Conditional statement is then being created. 
+   First condition states if variable, code exactly equals 123, secret will have a value of string "super" and code variable's value is multiplied by 2.
+   Second condition states if varaible code is greater than 250, secret will have a value of string "duper".
+   We then console.log variable, secret. 
+*/
 
 //CODE
 /*
@@ -70,10 +73,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+/* Four varibales are being created. 
+   The first one is named isStudent and has boolean, true assigend. 
+   The second one is named age with a value attributed of numbers 34.
+   The Third one is named zip with a value attributed of numbers 55407.
+   Conditional statement is then being created. 
+   First condition states if variable, isStudent exactly equals true and zip variable is greater than 80000, console.log string "You're a student on the West Coast!".
+   Second condition states otherwise that if varaible, isStudent exactly equals false or age variable is less than 30, console.log string "What are your hobbies?".
+   Third condition states otherwise that if varaible, isStudent exactly equals true, console.log string "Welcome to Prime!".
+   Final condition states otherwise if none of those then console.log string "How about the weather?".
+   We then console.log variable, secret. 
+*/
 
 //CODE
 /*
@@ -104,7 +114,7 @@ if (isStudent === true && zip > 80000 ) {
 
 // EXAMPLE
 // 0. (DESCRIPTION OF CORRECT BEHAVIOR)
-// We make a variable called number and set it to 1 as a number.
+// We make a variable, called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
 // We check if number is greater than or equal to 2. 
 // -- it is, so we console.log 'yes'
@@ -129,6 +139,8 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// FIX - colorOne variable set to red and colorTwo set to blue, but instructions say they are set vise versa positions. 
+// Variable colorOne should be set to blue and colorTwo to red.
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -147,6 +159,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - Compound conditional of or || is being used rather than and&& as stated in instructions.
+// Change from || to &&.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +174,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - Conditional of less than or equal to <= is being used rather than great than or equal to >= as per instructed.  
+// Change conditional from <= to >=.
 if(minAge <= age) {
   console.log('no entry');
 } else {
