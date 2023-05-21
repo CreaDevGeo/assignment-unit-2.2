@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We create a variable named Dane without a value assigned.
+// We declare a variable with let with the name "name", that equals the value of the string, "Dane".
 // We then write a conditional statement.
-// The first part is stating that if name equals Mary, then console.log string "Hi, Mary!"
-// The second part is stating that if name is anything besides Mary, then console.log string "How do you do?"
+// The first part is stating that if name exactly equals Mary, then console.log string "Hi, Mary!".
+// The second part is stating that if name is anything besides Mary, then console.log string "How do you do?".
+// The output is the second conditional, returning "How do you do?" to the console.
 
 //CODE
 /*
@@ -45,12 +46,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-/* Two varibales are being created. The first one is named secret and has no value assigned. 
-   The second one is named code with a value attributed with numbers 123.
+/* Two varibales are being declared. The first one is named secret and has no value assigned. 
+   The second one is named code with a value of the numbers 123.
    Conditional statement is then being created. 
-   First condition states if variable, code exactly equals 123, secret will have a value of string "super" and code variable's value is multiplied by 2.
-   Second condition states if varaible code is greater than 250, secret will have a value of string "duper".
-   We then console.log variable, secret. 
+   First condition states if variable code exactly equals 123, secret will be assigned a value of string "super" and code variable's value of 123 will be multiplied by 2.
+   The fist conditional will work and change the variables' values.
+   Second, new conditional states if varaible code is greater than 250, secret will now be assigned a value of string "duper".
+   We then console.log variable, secret whic gives us an output of string "super", because the value of code is less than 250.
 */
 
 //CODE
@@ -73,16 +75,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-/* Four varibales are being created. 
-   The first one is named isStudent and has boolean, true assigend. 
-   The second one is named age with a value attributed of numbers 34.
-   The Third one is named zip with a value attributed of numbers 55407.
+/* Three varibales are being declared with let. 
+   The first one is named isStudent and has boolean of true assigend. 
+   The second one is named age with a value assigned of 34.
+   The Third one is named zip with a value assigned of 55407.
    Conditional statement is then being created. 
    First condition states if variable, isStudent exactly equals true and zip variable is greater than 80000, console.log string "You're a student on the West Coast!".
    Second condition states otherwise that if varaible, isStudent exactly equals false or age variable is less than 30, console.log string "What are your hobbies?".
-   Third condition states otherwise that if varaible, isStudent exactly equals true, console.log string "Welcome to Prime!".
-   Final condition states otherwise if none of those then console.log string "How about the weather?".
-   We then console.log variable, secret. 
+   Third condition states otherwise that if varaible, isStudent exactly equals true, with no additional condition, console.log string "Welcome to Prime!".
+   Final condition states otherwise if none of those previous conditions then console.log string "How about the weather?".
+   The result is the third condition with string output "Welcome to Prime!", because the other conditions do not work as stated.
+   
 */
 
 //CODE
@@ -141,6 +144,7 @@ if (number >= 2) {
 
 // FIX - colorOne variable set to red and colorTwo set to blue, but instructions say they are set vise versa positions. 
 // Variable colorOne should be set to blue and colorTwo to red.
+// Also in the conditional, only colorOne is set to purple rather than both colorOne AND colorTwo as stated in the description.
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -174,9 +178,10 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// FIX - Conditional of less than or equal to <= is being used rather than great than or equal to >= as per instructed.  
+// FIX - First conditional outputs string "no entry" into the console rather than string "enter" as described. 
+// Swap the condition outputs to match the description; if minAge >= age console.log "enter". 
 // Change conditional from <= to >=.
-if(minAge <= age) {
+if(minAge >= age) {
   console.log('no entry');
 } else {
   console.log('enter');
